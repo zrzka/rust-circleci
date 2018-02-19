@@ -9,7 +9,6 @@ RUN apt-get update && \
 RUN curl https://sh.rustup.rs -sSf | sh -s -- -y
 
 ENV PATH "$PATH:/root/.cargo/bin"  
-ENV RUSTFLAGS "-C link-dead-code"  
 ENV CFG_RELEASE_CHANNEL "nightly"
 
 RUN rustup update && \  
