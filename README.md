@@ -75,3 +75,12 @@ fi
 cargo test --release
 cargo build --release
 ```
+
+## Update
+
+Steps for new Rust version update:
+
+* modify [local.env](local.env),
+* build with [build.sh](build.sh) script,
+* check and inspect image locally,
+* push with [push.sh](push.sh) script.
