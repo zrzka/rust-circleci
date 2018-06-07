@@ -7,8 +7,8 @@ Docker test & build image for Rust projects. This image contains:
 * clippy version compatible with nightly version of Rust.
 
 Every image is tagged with Rust stable version (`zrzka/rust-circleci:1.26.2`
-for example). Latest version is tagged with `zrzka/rust-circleci:latest`. All released
-versions are available [here](https://github.com/zrzka/rust-circleci/releases).
+for example). Latest stable version is tagged with `zrzka/rust-circleci:stable`.
+All released versions are available [here](https://github.com/zrzka/rust-circleci/releases).
 
 Why specific nightly version? That's because of
 [Clippy](https://github.com/rust-lang-nursery/rust-clippy). Rust compiler evolves
